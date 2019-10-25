@@ -219,7 +219,7 @@
         if($altura!=""){
       ?>
       <tr>
-        <td>Imagem:</td>
+        <td>Imagem:<br><p style="font-size:10px;">Insira a URL da imagem para realizar esta ação.</p></td>
         <td><input type="text" name="txtimagem[]" maxlength="255" value="<?php echo $imagem;?>"></td>
         <td>*Número de peças:</td>
         <td><input type="text" name="txtnpecas[]" maxlength="255" value="<?php echo $n_pecas;?>"></td>
@@ -246,7 +246,7 @@
         }else{
       ?>
       <tr>
-        <td>Imagem:</td>
+        <td>Imagem: <br><p style="font-size:10px;">Insira a URL da imagem para realizar esta ação.</p></td>
         <td><input type="text" name="txtimagem[]" maxlength="255" value="<?php echo $imagem;?>"></td>
         <td>*Número de peças:</td>
         <td><input type="text" name="txtnpecas[]" maxlength="255" value="<?php echo $n_pecas;?>"></td>

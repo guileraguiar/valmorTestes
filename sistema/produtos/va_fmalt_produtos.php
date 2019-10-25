@@ -52,7 +52,7 @@
 					</td>
 			</tr>
       <tr>
-        <td>Imagem:</td>
+        <td>Imagem: <br><p style="font-size:10px;">Insira a URL da imagem para realizar esta ação.</p></td>
         <td><input type="text" name="txtimagem" maxlength="255 value="<?php echo $sql_sel_produtos_dados['imagem'];?>></td>
       </tr>
       <tr>
