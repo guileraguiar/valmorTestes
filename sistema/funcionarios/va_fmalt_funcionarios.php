@@ -82,11 +82,11 @@
     <td colspan="3"><input type="text" name="txtcep" maxlength="8" value="<?php echo $sql_sel_funcionarios_dados['cep']; ?>"></td>
   </tr>
   <tr>
-    <td colspan="4">Obrigtórios*</td>
+    <td colspan="4">Obrigatórios*</td>
   </tr>
 </table>
 <div class="botoes">
-  <button class="botao_limpar" type="button" name="btnlimpar">Limpar</button>
+  <button class="botao_limpar" type="reset" name="btnlimpar">Limpar</button>
   <button class="botao_registrar" type="submit" name="btnregistrar">Registrar</button>
 </div>
 </form>

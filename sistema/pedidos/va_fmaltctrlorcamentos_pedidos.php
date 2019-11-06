@@ -40,7 +40,7 @@
       </tr>
     </table>
     <div class="botoes">
-      <button class="botao_limpar" type="button" name="btnlimpar">Limpar</button>
+      <button class="botao_limpar" type="reset" name="btnlimpar">Limpar</button>
       <button type="submit" class="botao_registrar" name="btnregistrar">Registrar</button>
     </div>
   </form>
