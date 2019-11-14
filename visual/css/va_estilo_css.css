@@ -184,10 +184,10 @@ li.dropdown {
 
 footer{
   width: 100%;
-  position: relative;
-  clear: both;
-  height: 63px;
-  top: 21px;
+  position: fixed;
+  bottom:0px;
+  height:80px;
+  width:100%;
   background-color: #245269;
   color: white;
 }
